@@ -8,53 +8,78 @@
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="logo">
-        <nav>
+     
+       
+        <img src="img/logo.png" alt="logo" class="logo">
+  
+       
+       
+    </header>
+    <main>
+       <section class="barra-menu">
+            <nav>
+            
+          
             <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
             <a href="mapa.html">Centros de salud cercanos</a>
             <a href="contacto.html">Contactenos</a>
+           
+            <article>
+                <form action="#" method="post">
+                    
+                    
+                    <datalist id="informacion">
+                        <option value="enfermedad1">
+                        <option value="enfermedad2">
+                        <option value="emfermedad3">
+                    </datalist>
+                    <label for="ciudad"></label>
+                    <input type="text" name="postal" list="informacion">
+
+                    <input type="submit" value="Buscar">
+                </form>
+            </article>
         </nav>
-    </header>
-    <main>
+       </section>
+       <section class="corrusel">
+           <img src="img/Dona-Plasma.jpg" alt="Dona-Plasma">
+       </section>
         <section>
             <article>
-                <h4>Sobre la Clinica</h4>
+                
                 <img src="/img/laboratorio.jpg" alt="">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, reprehenderit.</p>
+                <h4>Sobre la Clinica</h4>
+               
             </article>
             <article>
-                <h4>Cuerpo medico</h4>
+                
                 <img src="/img/pediatria.jpg" alt="cuerpo-medico">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, reprehenderit.</p>
+                <h4>Cuerpo medico</h4>
             </article>
             <article>
-                <h4>Servicios</h4>
+                
                 <img src="/img/Pami.jpg" alt="atencion-obras-sociales">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, reprehenderit.</p>
+                <h4>Servicios</h4>
             </article>
         </section>
 
     </main>
     
-    <footer>
-        <div class="logo-footer"></div>
-        <div class="columna1"><h5>Contactos</h5>
-        <p>Direccion N° , Buenos Aires, Argentina</p>
-        <p>Telefono: 4567-8901</p>
-        <p>Mail</p><a href="mailto:contacto@salud.com.ar">contacto@salud.com.ar</a>
-        </div>
-        <div class ="columna2"><h5>Links</h5>
+    <footer >
+        
+        <article class="columna1"><h5>Datos del grupo</h5>
+        <p>Gaston Nahuel Haczek - 41882840</p>
+        <p>Ruiz Diaz Juan - 31774500</p>
+        <p>Uriel Iván Schiavone - 41757710</p>
+        </article>
+        <article class ="columna2"><h5>Menu inferior:</h5>
             <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
-            <a href="mapa.html">Centros de salud cercanos</a>
-            <a href="contacto.html">Contactenos</a>
-        </div>
-        <div class="columna3"><h5>Novedades</h5>
-        <ul>
-            <li><p>Lorem ipsum dolor sit amet.</p></li>
-            <li><p>Lorem ipsum dolor sit amet.</p></li>
-            <li><p>Lorem ipsum dolor sit amet.</p></li>
-        </ul>
-        </div>
+            <a href="mapa.html">Hospitales</a>
+            <a href="contacto.html">Contacto</a>
+        </article>
+        <article class="columna3"><h5>Redes Sociales:</h5>
+
+        </article>
 
     </footer>
 </body>
