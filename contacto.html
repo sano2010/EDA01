@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactenos</title>
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="/css/estilos-contacto.css">
 </head>
 <body>
+    <header>
+     
+       
+        <img src="img/logo.png" alt="logo" class="logo">
+  
+       
+       
+    </header>
+    <main>
+       <section class="barra-menu">
+            <nav>
+            
+          
+            <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
+            <a href="mapa.html">Centros de salud cercanos</a>
+            <a href="contacto.html">Contactenos</a>
+           
+            <article>
+                <form action="#" method="get">
+                    
+                    
+                    <datalist id="informacion">
+                        <option value="enfermedad1">
+                        <option value="enfermedad2">
+                        <option value="emfermedad3">
+                    </datalist>
+                    <label for="ciudad"></label>
+                    <input type="text" name="postal" list="informacion">
+
+                    <input type="submit" value="Buscar">
+                </form>
+            </article>
+        </nav>
+       </section>
+           
+           
+       <section class="contacto">
+           
+           <article class="columna-contacto1">
+               <H1>Deja tu consulta</H1>
+               <p>Llamanos: +54 123456789</p>
+               <p>Email: unlam@hospital.com.ar</p>
+               <p>Ubicacion: Pres. Juan Domingo Perón 2100, B1754AZH San Justo, Provincia de Buenos Aires </p>
+               <p>Redes sociales: </p>
+               
+           </article>
+           <article class="columna-contacto2">
+               <form action="#" method="post">
+                   <label for="nombre">Nombre:</label>
+                   <input type="text" name="nombre" placeholder="ingrese su nombre" required>
+                   <label for="apellido">Apellido:</label>
+                   <input type="text" name="apellido" placeholder="ingrese su apellido" required>
+                   <label for="email">Ingrese su email:</label>
+                   <input type="email" name="email" placeholder="ingrese su mail" required >
+                   <label for="tel">Ingrese su telefono:</label>
+                   <input type="tel" name="tel" placeholder="ingrese su telefono" pattern="[0-9]{8}">
+                   <label for="consulta">Ingrese su consulta:</label>
+                   <textarea name="consulta" id="" cols="30" rows="10" placeholder="ingrese su consulta aqui"></textarea>
+               </form>
+           </article>
+       </section>
+      
+
+    </main>
     
+    <footer >
+        
+        <article class="columna1"><h5>Datos del grupo</h5>
+        <p>Gaston Nahuel Haczek - 41882840</p>
+        <p>Ruiz Diaz Juan - 31774500</p>
+        <p>Uriel Iván Schiavone - 41757710</p>
+        </article>
+        <article class ="columna2"><h5>Menu inferior:</h5>
+            <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
+            <a href="mapa.html">Hospitales</a>
+            <a href="contacto.html">Contacto</a>
+        </article>
+        <article class="columna3"><h5>Redes Sociales:</h5>
+
+        </article>
+
+    </footer>
 </body>
+
+<!---FUENTE DE IMAGENES --->
+<!---<a href='https://www.freepik.es/vectores/cubrir'>Vector de Cubrir creado por freepik - www.freepik.es</a>-->
 </html>

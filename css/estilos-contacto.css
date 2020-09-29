@@ -17,6 +17,7 @@ header img{
 }
 main{
     height: 80%;
+    width: auto;
    
     background-color:white;
     display: block;
@@ -28,14 +29,6 @@ main{
 }
 article form{
     text-align: right;
-}
-.corrusel img{
-  margin: auto;  
-  width: auto;
- 
-   
-   
-    
 }
 
 nav{
@@ -54,19 +47,40 @@ a:hover{
     text-decoration: underline;
 }
 
-article{
-    background-color: #3482c4;
-    height: 100%;
-    width: 31%;
-    padding: auto;
-    display: inline-block;
-
-}
-article img{
-    width: 100%;
-    margin: auto;
+.contacto {
+    
+    background: #9fb8b9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
     
 }
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 250px;
+}
+.columna-contacto1{
+   padding: 30px;
+    background: #bbcfd0;
+   
+}
+.columna-contacto2{
+    background: #bbcfd0;
+    padding: 0px 100px 0px 100px;
+}
+.columna-contacto2 input,label,textarea{
+    
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;    
+}
+
+
+
+
 footer {
     
     background-color: #3482c4;
