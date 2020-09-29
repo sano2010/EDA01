@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+}
+header{
+    padding: 10px;
+    background-color:#fff;
+}
+.logo{
+    height: 100px;
+}
+main{
+    height: 80%;
+    background-color:white;
+    display: block;
+    padding-bottom: 20px;
+}
+.barra-menu {
+    background: #3482c4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+nav{
+    text-align: center;
+    padding:10px;
+}
+form{
+    padding: 10px;    
+}
+
+a{
+    
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right:15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+}
+.imagen-enfermedad{
+    width: 250px;
+    height: 150px;
+    background: ;
+    margin:20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px -2px rgba(0,0,0,0.2);
+    
+}
+.imagen-enfermedad img{
+    width: 200px;
+    height: 150px;
+}
+.descripcion-enfermedad{
+    height: 150px;
+    text-align: left;
+    padding: 5px;
+    align-self: center;
+    border-bottom: 1px dashed;
+    }
+h2{
+    margin-bottom: 10px;
+}
+
+footer {
+    
+    background-color: #3482c4;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+
+        
+}
+footer a {
+    display: flex;
+    margin:10px;
+}
+footer p{
+    margin: 10px;
+}
+h5{
+    margin: 10px;
+}
+i{
+    margin:15px;
+
+    
+}
+
+/*boton*/
+.boton{
+   
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 5px;
+    background: #3482c4;
+    color: white;
+    font-size: 12px;
+    margin: 10px 0;
+}
+.boton:hover{
+    opacity: .5;
+}
