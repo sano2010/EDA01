@@ -9,41 +9,47 @@
 </head>
 
 <body>
-
     <header>
-        <img src="img/logo-unlam.jpg" alt="logo" class="logo">
-        <h1>Clinica UNLaM</h1>
+        <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html" class="logo">
+                            <h1>Clinica UNLaM</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
+                    </li>
+                    <li>
+                        <a href="mapa.html">Centros de Salud cercanos</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Información de Contacto</a>
+                    </li>
+                    <li>
+                        <form action="#" method="post">
+                            <datalist id="informacion">
+                                <option value="enfermedad1">
+                                <option value="enfermedad2">
+                                <option value="emfermedad3">
+                            </datalist>
+                            <input type="text" name="postal" list="informacion">
+                            <input type="button" value="Buscar">
+                        </form>
+                    </li>
+                </ul>
+            </nav>
     </header>
 
     <main>
 
-       <section class="barra-menu">
-            <nav>
-                <a href="listado-de-enfermedades.html"><img src="img/icono-enfermedades.png" alt="icono-listado">Listado de enfermedades</a>
-                <a href="mapa.html"><img src="img/icono-mapa.png" alt="icono-mapa">Centros de salud cercanos</a>
-                <a href="contacto.html"><img src="img/icono-contacto.png" alt="icono-contacto">Información de Contacto</a>
-            </nav>
-            <div>
-                <p>Busqueda:</p>
-                <form action="#" method="post">
-                    <datalist id="informacion">
-                        <option value="enfermedad1">
-                        <option value="enfermedad2">
-                        <option value="emfermedad3">
-                    </datalist>
-                    <input type="text" name="postal" list="informacion">
-                </form>
-            </div>
-       </section>
-
-       <section class="corrusel">
-           <img src="img/Dona-Plasma.jpg" alt="Dona-Plasma">
-       </section>
+        <section class="corrusel">
+            <img src="img/Dona-Plasma.jpg" alt="Dona-Plasma">
+        </section>
 
         <section class="informacion">
-
             <article>
-                <img src="/img/icono-clinica.png" alt="">
+                <img src="img/icono-clinica.png" alt="">
                 <div>
                     <h4>Sobre la Clinica</h4>
                     <p>Clínica UNLaM se constituyó como una clínica abierta, de excelente nivel tecnológico y humano, que se destaca 
@@ -54,7 +60,7 @@
             </article>
 
             <article>
-                <img src="/img/icono-trabajadores.png" alt="cuerpo-medico">
+                <img src="img/icono-trabajadores.png" alt="cuerpo-medico">
                 <div>
                     <h4>Cuerpo medico</h4>
                     <p>El personal está integrado por profesionales, técnicos y auxiliares altamente capacitados para la atención 
@@ -62,37 +68,69 @@
                 </div>
             </article>
             <article>
-                <img src="/img/icono-horarios.png" alt="atencion-obras-sociales">
+                <img src="img/icono-horarios.png" alt="atencion-obras-sociales">
                 <div>
-                    <h4>Servicios</h4>
+                    <h4>Días y Horarios</h4>
                 </div>
             </article>
 
         </section>
 
+        <aside>
+
+            <article>
+                    <h5>Especialidades</h5>
+                    <h6>Traumatología</h6>
+                    <img src="img/especialidades_traumatologia.png" alt="traumatologia">
+                    <h6>Pediatría</h6>
+                    <img src="img/pediatria.jpg" alt="pediatria">
+                    <h6>Jubilados</h6>
+                    <img src="img/Pami.jpg" alt="pami">
+            </article>
+
+            <article>
+                <div>
+                    <h5>Hospitales Asociados</h5>
+                </div>
+                <div>
+
+                </div>
+                <div></div>
+                <div>
+
+                </div>
+            </article>
+
+        </aside>
+
+
     </main>
-    
+
     <footer >
 
-        <article class="columna1"><h5>Datos del grupo</h5>
+        <article class="columna1"><h6>Datos del grupo</h6>
         <p>Gaston Nahuel Haczek - 41882840</p>
         <p>Ruiz Diaz Juan - 31774500</p>
         <p>Uriel Iván Schiavone - 41757710</p>
         </article>
 
-        <article class ="columna2"><h5>Menu inferior:</h5>
-            <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
-            <a href="mapa.html">Hospitales</a>
-            <a href="contacto.html">Contacto</a>
-
+        <article class ="columna2"><h6>Menu inferior</h6>
+            <ul>
+                <li>
+                    <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
+                </li>
+                <li>
+                    <a href="mapa.html">Hospitales</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
         </article>
-        <article class="columna3"><h5>Redes Sociales:</h5>
+        <article class="columna3"><h6>Redes Sociales</h6>
         </article>
 
     </footer>
 
 </body>
-
-<!---FUENTE DE IMAGENES --->
-<!---<a href='https://www.freepik.es/vectores/cubrir'>Vector de Cubrir creado por freepik - www.freepik.es</a>-->
 </html>
