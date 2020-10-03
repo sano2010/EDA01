@@ -237,3 +237,16 @@ footer{
         .columna2 a:hover{
             border-bottom-style: solid;
         }
+
+        .columna3 div{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .columna3 i{
+            font-size: 25px;
+            margin: 10px;
+            align-content: center;
+            color: white;
+        }
