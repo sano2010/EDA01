@@ -13,6 +13,23 @@ section{
     display: flex;
     margin-top: 15px;
 }
+
+.enfermedad{
+    margin: 10px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 15px;
+}
+.foto-enfermedad img{
+    width: 350px;
+    
+}
+
+.caracteristicas{
+    margin: 6px;
+    padding: 10px;
+}
 .descripcion{
     width: 40%;
     margin-right: 15px;
