@@ -3,9 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalles a tener en cuenta</title>
+    <title>Formulario deteccion COVID19</title>
+    <script src="https://kit.fontawesome.com/ed0b8e39e2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/detalle-de-enfermedad.css">
 </head>
 <body>
+   <header>
+        <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html" class="logo">
+                            <h1>Clinica UNLaM</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
+                    </li>
+                    <li>
+                        <a href="mapa.html">Centros de Salud cercanos</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Información de Contacto</a>
+                    </li>
+                    <li>
+                        <form action="#" method="post">
+                            <datalist id="informacion">
+                                <option value="enfermedad1">
+                                <option value="enfermedad2">
+                                <option value="emfermedad3">
+                            </datalist>
+                            <input type="text" name="postal" list="informacion">
+                            <input type="button" value="Buscar">
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+     <h3> FORMULARIO DE DETECCION (TEST) DE CORONAVIRUS (COVID-19)</h3>
+
+    <section>
+      <article class="descripcion">
+       <p>Hola usuario! Si tienes síntomas de <strong>CORONAVIRUS (COVID-19)</strong> o has estado en contacto con una persona afectada deberías hacer un control y seguimiento diario de tus síntomas. Esta aplicación te permitirá hacer un seguimiento de la evolución de los síntomas y te dará las indicaciones y consejos a seguir en cada caso. El uso de este servicio supone la aceptación de los términos y la política de privacidad descritos en <em>"Ver las condiciones y políticas”</em></p>
+       <div class="sintomas">    
+           <h4>SINTOMAS</h4>
+           <img src="img/23-fiebre-tos.png" alt="fiebre-tos">
+           <img src="img/25-fiebre-dificultad-respirar.png" alt="dificultad-respirar">
+           <img src="img/24-fiebre-dolor-garganta.png" alt="fibre-dolor garganta">
+      </div>
+         </article>
+          
+    <article class="formulario">
+            <form action="#">
+               <label for="nombre">Nombre y apellido: </label><br>
+               <input type="text" name="nombre" id="nombre" required><br>
+               <label for="nombre">DNI: </label><br>
+               <input type="number" name="DNI" id="DNI" required><br>
+               <label for="nombre">Telefono: </label> <br>
+               <input type="tel" name="Telefono" id="telefono" required><br>
+               <label for="Ciudad">Ciudad: </label><br>
+                <input type="text" name="ciudad" id="ciudad" required><br>
+                <label for="visita">Sexo</label><br> 
+                    <input id="hombre" type="radio" name="tipo_sexo" value="Hombre" checked> Hombre
+                    <input id="mujer" type="radio" name="tipo_sexo" value="Mujer"> Mujer
+                    <input id="otro" type="radio" name="tipo_sexo" value="otro"> Otro
+                 <br>
+               <label for="visita">¿Has viajado al exterior de la República Argentina? </label> <br>
+                   <input id="visita" type="radio" name="visita" value="si" checked> SI
+                    <input id="visita" type="radio" name="visita" value="no">NO <br>
+                <label for="visitaBis">En caso afirmativo: ¿Que paises visito?</label><br>
+                    <label for="paises">Paises</label>
+                    <select id="paises" name="paises">
+                        <option value="1">China</option>
+                        <option value="2">EEUU</option>
+                        <option value="3">Otros</option>
+                    </select><br>
+                    <label for="visita">¿Tuviste Fiebre mayor a 38 grados? </label><br> 
+                   <input id="fiebre" type="radio" name="fiebre" value="si" checked> SI
+                    <input id="fiebre" type="radio" name="fiebre" value="no"> No
+                    <br>
+                    <label for="cabeza">¿Tuviste dolor de cabeza? </label><br> 
+                   <input id="cabeza" type="radio" name="cabeza" value="si" checked> SI
+                    <input id="cabeza" type="radio" name="cabeza" value="no"> No
+                    <br>
+                    <label for="tos">¿Tuviste una tos persistente? </label><br> 
+                   <input id="tos" type="radio" name="tos" value="si" checked> SI
+                    <input id="tos" type="radio" name="tos" value="no"> No
+                    <br>
+                    <label for="dolor_garganta">¿Tuviste dolor de garganta? </label><br> 
+                   <input id="dolor_garganta" type="radio" name="dolor_garganta" value="si" checked> SI
+                    <input id="dolor_garganta" type="radio" name="dolor_garganta" value="no"> No<br>
+                    <label for="dolor_garganta">¿Tuviste dificultades para respirar?<br> </label> 
+                   <input id="respirar" type="radio" name="respirar" value="si" checked> SI
+                    <input id="dolor_garganta" type="radio" name="dolor_garganta" value="no"> No
+                     <br>
+                     <label for="nombre">Direccion:</label>
+               <input type="text" name="direccion" id="direccion">
+               <label for="nombre">Ciudad:</label>
+               <input type="text" name="ciudad" id="ciudad"><br>
+                <button type="submit" value="Enviar">ENVIAR TEST</button>
+            </form>
+        </article>
+    </section>
     
+    
+    
+    </main>
+    <footer >
+
+        <article class="columna1">
+            <h6>Datos del grupo</h6>
+            <ul>
+                <li>
+                    <p>Gaston Nahuel Haczek - 41882840</p>
+                </li>
+                <li>
+                    <p>Ruiz Diaz Juan - 31774500</p>
+                </li>
+                <li>
+                    <p>Uriel Iván Schiavone - 41757710</p>
+                </li>
+            </ul>
+        </article>
+
+        <article class ="columna2">
+            <h6>Menu inferior</h6>
+            <ul>
+                <li>
+                    <a href="listado-de-enfermedades.html">Listado de enfermedades</a>
+                </li>
+                <li>
+                    <a href="mapa.html">Hospitales</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </article>
+        
+        <article class="columna3"><h6>Redes Sociales</h6>
+
+                <div>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                
+        </article>
+
+    </footer>
 </body>
 </html>
