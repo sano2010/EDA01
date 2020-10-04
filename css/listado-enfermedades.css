@@ -1,7 +1,41 @@
+h1{
+    text-align: center;
+
+}
+
+main h1{
+    font-size: 24px;
+    margin: 10px;
+}
+
+form{
+    width: 300px;
+    margin: 10px;
+    
+}
+.buscar{
+    background-color: #118DA6;
+    display: flex;
+    border-radius: 20px;
+    border-color: ; 
+    justify-content: center
+
+}
+
+.buscar input {
+    width: 250px;
+    padding-left: 10px;
+
+}
+
 
 .contenedor article{
     display: flex;
     flex-direction: row;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 5px #4295A6 solid;
 }
 
 .imagen-enfermedad{
@@ -24,11 +58,12 @@
     text-align: left;
     padding: 5px;
     align-self: center;
-    border-bottom: 1px dashed;
+
     }
 
 .contenedor h2{
     margin-bottom: 10px;
+ 
 }
 
 /*boton*/
